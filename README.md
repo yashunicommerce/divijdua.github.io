@@ -1,1 +1,1 @@
-# Created for Tiktok <> UC OAuth Landing page redirection
+# Created for Tiktok Shop <> UC OAuth Landing page redirection
