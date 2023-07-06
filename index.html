@@ -20,10 +20,8 @@
 	     	const urlParams = new URLSearchParams(queryString);
 	    	const redirect_uri = urlParams.get('state')
 		const code = urlParams.get('code')
-		decoded_uri = decodeURI(redirect_uri)
 	    	console.log(code);
 	    	console.log(redirect_uri);
-		console.log(decoded_uri);
 	    	console.log(queryString);
 	    	window.location.href=decoded_uri+'?authCode='+code;
 		};
