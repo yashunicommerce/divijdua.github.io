@@ -20,6 +20,7 @@
 	     	const urlParams = new URLSearchParams(queryString);
 	    	const redirect_uri = urlParams.get('state')
 		const code = urlParams.get('code')
+		decoded_uri = decodeURIComponent(redirect_uri);
 	    	console.log(code);
 	    	console.log(redirect_uri);
 	    	console.log(queryString);
